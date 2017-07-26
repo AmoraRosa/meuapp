@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>{{config('app.name', 'MEU App')}}</title>
-	</head>
-	<body>
-    <h1>Serviços</h1>
-	</body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+			<h1>{{$title}}</h1>
+			@if(count($services) > 0)
+				<ul class="list-group">
+					@foreach ($services as $service)
+						<li class="list-group-item">{{$service}}</li>
+					@endforeach
+				</ul>
+  		@endif
+
+@endsection
