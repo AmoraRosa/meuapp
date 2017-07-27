@@ -14,6 +14,7 @@
            <li><a href="/">Home</a></li>
            <li><a href="/about">Sobre</a></li>
            <li><a href="/services">Serviços</a></li>
+           <li><a href="/post">Blog</a></li>
          </ul>
        </div><!--/.nav-collapse -->
      </div>
