@@ -16,6 +16,9 @@
            <li><a href="/services">Serviços</a></li>
            <li><a href="/post">Blog</a></li>
          </ul>
+         <ul class="nav navbar-nav navbar-right">
+           <li><a href="/post/create">Criar Post</a></li>
+         </ul>
        </div><!--/.nav-collapse -->
      </div>
 </nav>
