@@ -7,7 +7,7 @@
       {!!$post->body!!}
     </div>
     <hr>
-    <small>Escrito em {{$post->created_at}}</small>
+    <small>Escrito em {{$post->created_at}} por {{$post->user->name}}</small>
     <hr>
     <a href="/post/{{$post->id}}/edit" class="btn btn-default">Editar</a>
     {!!Form::open(['action' => ['PostController@destroy', $post->id], 'method' => 'POST', 'class' => 'pull-right'])!!}
